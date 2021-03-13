@@ -4,11 +4,15 @@ import {Button} from "@material-ui/core"
 function Header() {
     return(
         <div className = "header">
-        <h2>Hi, I'm Cody Njos</h2>
-        <h3>Software Developer</h3>
-        <h3>Game Enthusiest</h3>
-        <h3>Cat Dad</h3>
-        <img src = "/images/Cody_2.png"/>
+        <div className = "desciptors">
+        <h1>Hi, I'm Cody Njos</h1><br/>
+        <h2>Software Developer</h2>
+        <h2>Tech Enthusiest</h2>
+        <h2>Cat Dad</h2>
+        </div>
+        <div className= "portrait">
+        <img className ="portrait" src = "https://i.imgur.com/vSh2qcj.jpg" alt="borked"/>
+        </div>
         </div>
     )
 }
