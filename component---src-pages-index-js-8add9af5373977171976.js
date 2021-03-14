@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_njos_dev=self.webpackChunkgatsby_njos_dev||[]).push([[678,461],{877:function(e,t,n){"use strict";n.r(t);var a=n(294);t.default=function(){return a.createElement("div",{className:"header"},a.createElement("p",null,"Aasdf"))}},704:function(e,t,n){"use strict";n.r(t);var a=n(294),u=n(877);t.default=function(){return a.createElement(a.Fragment,null,a.createElement(u.default,null))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-8add9af5373977171976.js.map
