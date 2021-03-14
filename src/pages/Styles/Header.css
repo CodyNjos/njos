@@ -1,34 +1,31 @@
 .header{
  /* text-align: left; */
-    background-color: grey;
+    text-align: center;
     padding: 2em;
     margin-left: 0;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    background-image:  url("https://i.imgur.com/BY1pIhP.png");
-    border-bottom: 8px solid goldenrod;
+    justify-content: center; */
 }
 body{
-    background-color: rgb(145, 145, 145);
+    
 }
 .desciptors{
     display: flex;
     
 }
-.hi{
-    font-size: 4em;
+.portraitWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .portrait{
-   display: flex;
-   float: right;
     width: 20em;
     height: 20em;
     border-radius: 50%;
 }
 .links{
-    display: flex;
-    margin-top: 20%;
+    
 }
 .logoLink{
     height: 3em;
