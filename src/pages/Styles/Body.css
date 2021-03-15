@@ -8,22 +8,36 @@ body{
     padding: 0;
     margin: 0;
 }
+.introBody{
+    font-size: 18px;
+}
 .intro{
     padding-top: 4em;
     margin-left: 15%;
     margin-right: 15%;
+    color: white;
 }
 .content{
+    
     display: flex;
+    justify-content: center;
     height: 20em;
     width: 85%;
-    border: grey 1px solid;
+    border: #d1d0d0 1px solid;
     border-radius: 30px;
+    box-shadow: 5px 10px 20px #d1d0d0;
     background-color: white;
+    margin-bottom: 10em;
 }
 .contentWrap{
     margin-top: -3em;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.iconHead{
+    margin-top: 1em;
+    height: 5em;
+    width: 5em;
 }

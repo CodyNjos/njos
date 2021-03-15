@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Styles/Header.css'
-import { Button } from "@material-ui/core"
-import GitLogo from '../Header/Images/git.icon.png'
+//import GitLogo from '../Header/Images/git.icon.png'
 import LinkInLogo from '../Header/Images/linkedin.icon.png'
 import HeadShot from '../Header/Images/Cody_2.png'
 import Email from '../Header/Images/email.icon.png'
 function Header() {
+    const GitLogo = require('../Header/Images/git.icon.png-')
     return (
         <div className="header">
             <div className="descriptors">
