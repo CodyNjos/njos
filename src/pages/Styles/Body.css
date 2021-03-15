@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 .main{
 background-color: goldenrod;
-height: 20em;
+height: 25.5em;
 width: 100%;
 text-align: center;
 }
 body{
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .introBody{
-    font-size: 18px;
+    font-family: 'Lato';
+    font-size: 1.3em;
+    
+}
+.introHead{
+    font-family: 'Blinker';
+    font-size: 2em;
 }
 .intro{
     padding-top: 4em;
@@ -18,16 +27,14 @@ body{
     color: white;
 }
 .content{
-    
-    display: flex;
-    justify-content: center;
-    height: 20em;
+    text-align: center;
+    height: 34em;
     width: 85%;
     border: #d1d0d0 1px solid;
     border-radius: 30px;
     box-shadow: 5px 10px 20px #d1d0d0;
     background-color: white;
-    margin-bottom: 10em;
+    margin-bottom: 2em;
 }
 .contentWrap{
     margin-top: -3em;
@@ -40,4 +47,25 @@ body{
     margin-top: 1em;
     height: 5em;
     width: 5em;
+}
+.logoLink{
+    height: 3em;
+    width: 3em;
+    padding: .5em;
+}
+.projectCard{
+    width: 20em;
+    height: 15em;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 30px;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
