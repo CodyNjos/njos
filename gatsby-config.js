@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: "/njos.dev",
+  pathPrefix: "/njos",
   siteMetadata: {
-    title: "gatsby.njos.dev",
+    title: "gatsby.njos",
   },
   plugins: [],
 };
