@@ -44,9 +44,9 @@ function Body() {
             </div>
             <h2 className="introHead">Some of My Recent Work</h2>
             <div className="work">
-                <div className="projectCard">IMAGE + DESCTIPTION OF GAME EXCHANGE</div>
-                <div className="projectCard">IMAGE + DESCRIPTION OF SALARY CALCULATOR</div>
-                <div className="projectCard">IMAGE + DESCRIPTION OF CLIENT PROJECT</div>
+                <div className="gameExchange" onClick={() => window.open('https://thegameexchange.herokuapp.com','_newtab')} ><p className="workText">The Game Exchange</p></div>
+                <div className="toDoList" onClick={() => window.open('https://sleepy-bayou-23204.herokuapp.com/','_newtab')}><p className="workText">To Do List</p></div>
+                {/* <div className="projectCard">IMAGE + DESCRIPTION OF CLIENT PROJECT</div> */}
             </div>
         </>
     )

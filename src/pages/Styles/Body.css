@@ -53,7 +53,7 @@ body{
     width: 3em;
     padding: .5em;
 }
-.projectCard{
+.gameExchange{
     width: 20em;
     height: 15em;
     background-color: goldenrod;
@@ -62,6 +62,38 @@ body{
     align-items: center;
     margin: 1em;
     border-radius: 30px;
+    background-image: url('../Body/Images/gameStack.jpeg');
+    background-size:fill;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 20px #d1d0d0;
+
+}
+.toDoList{
+    width: 20em;
+    height: 15em;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 30px;
+    background-image: url('../Body/Images/toDo.jpeg');
+    background-size:cover;
+    box-shadow: 5px 10px 20px #d1d0d0;
+
+    
+}
+.workText{
+    border: 3px solid rgb(87, 86, 86);
+    padding: 1rem;
+    background-color: rgba(252, 244, 244, 0.596);
+    font-family: 'Blinker';
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.projectCard img{
+    width: 90%;
+    
 }
 .work{
     display: flex;
