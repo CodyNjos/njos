@@ -5,9 +5,9 @@ import Footer from "./Footer/Footer"
 const IndexPage = () => {
   return (
     <>
-    <Header/>
-    <Body/>
-    <Footer/>
+      <Header />
+      <Body />
+      <Footer />
     </>
   )
 }
