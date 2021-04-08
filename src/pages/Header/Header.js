@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Header.css'
 
-import HeadShot from '../Header/Images/Cody_2.png'
+import HeadShot from '../Header/Images/Cody_2.jpg'
 
 import Beetle from '../Header/Images/Lamp.png'
 function Header() {

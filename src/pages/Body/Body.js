@@ -1,20 +1,12 @@
 import React from 'react'
-import {useState} from 'react'
 import "../Styles/Body.css"
 import Fragment from "./Images/fragment.icon.png"
 import GitLogo from '../Header/Images/git.icon.png'
 import LinkInLogo from '../Header/Images/linkedin.icon.png'
 import Email from '../Header/Images/email.icon.png'
-import {Dialog} from '@material-ui/core'
+
 function Body() {
 
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => {
-      setOpen(true);
-    };
-    const handleClose = () => {
-      setOpen(false);
-    };
 
     return (
         <>
