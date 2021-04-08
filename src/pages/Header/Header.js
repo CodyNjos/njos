@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Styles/Header.css'
-
 import HeadShot from '../Header/Images/Cody_2.jpg'
-
 import Beetle from '../Header/Images/Lamp.png'
+import { useMediaQuery } from '@material-ui/core'
 function Header() {
+    const shrink = useMediaQuery("(min-width: 900px)")
     return ( 
         <div className="header">
 
@@ -17,8 +17,9 @@ function Header() {
              <div className="portraitWrap">
                 <img className="portrait" src={HeadShot} alt="borked" />
             </div>
-           
+           {shrink &&
            <img className="beetle" src ={Beetle} alt = ""/>
+}
         </div>
     )
 }
