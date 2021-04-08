@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 .main{
 background-color: goldenrod;
-height: 27em;
+/* margin-top: 5em; */
 width: 100%;
 text-align: center;
 }
@@ -24,7 +24,7 @@ body{
     font-size: 2em;
 }
 .intro{
-    padding-top: 4em;
+    padding-top: 2em;
     margin-left: 15%;
     margin-right: 15%;
     color: white;
@@ -54,7 +54,11 @@ body{
 .logoLink{
     height: 3em;
     width: 3em;
-    padding: .5em;
+    padding: 1.5em;
+    
+}
+.links{
+    padding-bottom:4em;
 }
 .gameExchange{
     width: 20em;

@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_njos_dev=self.webpackChunkgatsby_njos_dev||[]).push([[876],{343:function(e,t,n){"use strict";n.r(t);var s=n(7294);t.default=function(){return s.createElement("div",{className:"theFoot"},s.createElement("p",null,"© Cody Njos 2021"))}}}]);
+//# sourceMappingURL=component---src-pages-footer-footer-js-cae300d7eed56109a70f.js.map
