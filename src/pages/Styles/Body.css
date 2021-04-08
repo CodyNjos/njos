@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 .main{
 background-color: goldenrod;
-height: 25.5em;
+height: 27em;
 width: 100%;
 text-align: center;
+}
+.subHead{
+    font-family: "Lato";
 }
 body{
     padding: 0;
@@ -17,7 +20,7 @@ body{
     
 }
 .introHead{
-    font-family: 'Blinker';
+    font-family: 'Lato';
     font-size: 2em;
 }
 .intro{

@@ -1,19 +1,32 @@
 import React from 'react'
+import {useState} from 'react'
 import "../Styles/Body.css"
 import Fragment from "./Images/fragment.icon.png"
 import GitLogo from '../Header/Images/git.icon.png'
 import LinkInLogo from '../Header/Images/linkedin.icon.png'
 import Email from '../Header/Images/email.icon.png'
+import {Dialog} from '@material-ui/core'
 function Body() {
+
+    const [open, setOpen] = useState(false);
+    const handleOpen = () => {
+      setOpen(true);
+    };
+    const handleClose = () => {
+      setOpen(false);
+    };
+
     return (
         <>
             <div className="main">
                 <div className="intro">
                     <h2 className="introHead">A Little About Me</h2>
-                    <p className="introBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mi felis, cursus sed suscipit et, consequat nec nibh. Donec libero lorem,
-                    rhoncus id sollicitudin in, elementum at lacus. Nullam malesuada ullamcorper vehicula. Morbi ut consectetur enim. Quisque ac semper metus.
-                    Proin ac elit vel turpis lacinia semper non quis turpis. Pellentesque orci lectus, rhoncus in condimentum a,
-                blandit quis dolor. Duis nec scelerisque nunc, sit amet eleifend ex.</p>
+                    <p className="introBody">Being fascinated with how technology can improve the world we live 
+                    in has driven me to learn the skills to solve problems in creative, efficient ways.
+                     I am a recent graduate of Emerging Digital Academy, a 20-week full-stack program. 
+                     EDA has given me an amazing foundation to build on, and I'm looking forward to starting a new career in software.
+                    I love the ever-changing aspect of the software industry, there’s always more to learn, more problems to solve, and more to build.
+                      </p>
                 </div>
                 <div className="links">
                     <a href="https://github.com/CodyNjos" target="_blank" rel="noreferrer" >
@@ -31,7 +44,7 @@ function Body() {
                 <div className="content">
                     <img className="iconHead" alt="" src={Fragment} />
                     <h2 className="introHead"> Full Stack Developer</h2>
-                    <h2>
+                    <h2 className="subHead">
                         Tools Ive Used
                     </h2>
                     <p className="introBody"> React JS</p>
@@ -48,6 +61,7 @@ function Body() {
                 <div className="toDoList" onClick={() => window.open('https://sleepy-bayou-23204.herokuapp.com/','_newtab')}><p className="workText">To Do List</p></div>
                 {/* <div className="projectCard">IMAGE + DESCRIPTION OF CLIENT PROJECT</div> */}
             </div>
+     
         </>
     )
 }
